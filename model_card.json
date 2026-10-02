@@ -1,0 +1,304 @@
+{
+  "version": "v1",
+  "architecture": "mobilenet_v3_small (ImageNet-pretrained, fine-tuned)",
+  "dataset_names": [
+    "PlantDoc (CC BY 4.0)"
+  ],
+  "dataset_version": "github-2020",
+  "trained_at": "2026-10-02T06:22:12.861280+00:00",
+  "classes": [
+    "pepper___healthy",
+    "pepper___leaf_spot",
+    "potato___early_blight",
+    "potato___late_blight",
+    "tomato___bacterial_spot",
+    "tomato___early_blight",
+    "tomato___healthy",
+    "tomato___late_blight",
+    "tomato___leaf_mold",
+    "tomato___mosaic_virus",
+    "tomato___septoria_leaf_spot",
+    "tomato___yellow_virus"
+  ],
+  "metrics": {
+    "n": 102,
+    "accuracy": 0.4608,
+    "macro_precision": 0.45,
+    "macro_recall": 0.4667,
+    "macro_f1": 0.4522,
+    "per_class": {
+      "pepper___healthy": {
+        "precision": 0.4286,
+        "recall": 0.375,
+        "f1": 0.4,
+        "support": 8
+      },
+      "pepper___leaf_spot": {
+        "precision": 0.5,
+        "recall": 0.3333,
+        "f1": 0.4,
+        "support": 9
+      },
+      "potato___early_blight": {
+        "precision": 0.4444,
+        "recall": 0.5,
+        "f1": 0.4706,
+        "support": 8
+      },
+      "potato___late_blight": {
+        "precision": 0.375,
+        "recall": 0.375,
+        "f1": 0.375,
+        "support": 8
+      },
+      "tomato___bacterial_spot": {
+        "precision": 0.1765,
+        "recall": 0.3333,
+        "f1": 0.2308,
+        "support": 9
+      },
+      "tomato___early_blight": {
+        "precision": 0.625,
+        "recall": 0.5556,
+        "f1": 0.5882,
+        "support": 9
+      },
+      "tomato___healthy": {
+        "precision": 0.5,
+        "recall": 0.625,
+        "f1": 0.5556,
+        "support": 8
+      },
+      "tomato___late_blight": {
+        "precision": 0.6364,
+        "recall": 0.7,
+        "f1": 0.6667,
+        "support": 10
+      },
+      "tomato___leaf_mold": {
+        "precision": 0.375,
+        "recall": 0.5,
+        "f1": 0.4286,
+        "support": 6
+      },
+      "tomato___mosaic_virus": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 10
+      },
+      "tomato___septoria_leaf_spot": {
+        "precision": 0.5385,
+        "recall": 0.6364,
+        "f1": 0.5833,
+        "support": 11
+      },
+      "tomato___yellow_virus": {
+        "precision": 0.8,
+        "recall": 0.6667,
+        "f1": 0.7273,
+        "support": 6
+      }
+    },
+    "confusion_matrix": [
+      [
+        3,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        3,
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        4,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        3,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        3,
+        0,
+        1,
+        1,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        1,
+        5,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        5,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        7,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        3,
+        1,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ],
+    "labels": [
+      "pepper___healthy",
+      "pepper___leaf_spot",
+      "potato___early_blight",
+      "potato___late_blight",
+      "tomato___bacterial_spot",
+      "tomato___early_blight",
+      "tomato___healthy",
+      "tomato___late_blight",
+      "tomato___leaf_mold",
+      "tomato___mosaic_virus",
+      "tomato___septoria_leaf_spot",
+      "tomato___yellow_virus"
+    ],
+    "class_support": {
+      "pepper___healthy": 8,
+      "pepper___leaf_spot": 9,
+      "potato___early_blight": 8,
+      "potato___late_blight": 8,
+      "tomato___bacterial_spot": 9,
+      "tomato___early_blight": 9,
+      "tomato___healthy": 8,
+      "tomato___late_blight": 10,
+      "tomato___leaf_mold": 6,
+      "tomato___mosaic_virus": 10,
+      "tomato___septoria_leaf_spot": 11,
+      "tomato___yellow_virus": 6
+    }
+  },
+  "validated_on_nigerian_field_data": false,
+  "notes": "Test metrics come from the same dataset distribution. They do NOT show performance on Nigerian farms."
+}

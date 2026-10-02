@@ -1,0 +1,62 @@
+{
+  "tomato___early_blight": {
+    "crop": "tomato",
+    "condition": "Early blight",
+    "category": "disease"
+  },
+  "tomato___late_blight": {
+    "crop": "tomato",
+    "condition": "Late blight",
+    "category": "disease"
+  },
+  "tomato___leaf_mold": {
+    "crop": "tomato",
+    "condition": "Leaf mold",
+    "category": "disease"
+  },
+  "tomato___bacterial_spot": {
+    "crop": "tomato",
+    "condition": "Bacterial spot",
+    "category": "disease"
+  },
+  "tomato___septoria_leaf_spot": {
+    "crop": "tomato",
+    "condition": "Septoria leaf spot",
+    "category": "disease"
+  },
+  "tomato___mosaic_virus": {
+    "crop": "tomato",
+    "condition": "Mosaic virus",
+    "category": "disease"
+  },
+  "tomato___yellow_virus": {
+    "crop": "tomato",
+    "condition": "Yellow virus",
+    "category": "disease"
+  },
+  "tomato___healthy": {
+    "crop": "tomato",
+    "condition": "Healthy",
+    "category": "healthy"
+  },
+  "potato___early_blight": {
+    "crop": "potato",
+    "condition": "Early blight",
+    "category": "disease"
+  },
+  "potato___late_blight": {
+    "crop": "potato",
+    "condition": "Late blight",
+    "category": "disease"
+  },
+  "pepper___leaf_spot": {
+    "crop": "pepper",
+    "condition": "Leaf spot",
+    "category": "disease"
+  },
+  "pepper___healthy": {
+    "crop": "pepper",
+    "condition": "Healthy",
+    "category": "healthy"
+  }
+}
